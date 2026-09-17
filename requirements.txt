@@ -1,0 +1,19 @@
+langchain==1.4.1
+langchain-community==0.4.2
+langchain-core==1.6.3
+langchain-anthropic==1.7.2
+langchain-ollama==1.1.0
+langchain-google-genai==4.4.0
+langchain-classic==1.0.8
+langgraph==1.2.11
+requests
+tavily-python
+python-dotenv
+langsmith
+certifi
+streamlit>=1.0.0
+
+# Web scraping
+beautifulsoup4
+readability-lxml
+trafilatura
