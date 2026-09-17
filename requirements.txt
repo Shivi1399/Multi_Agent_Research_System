@@ -12,6 +12,7 @@ python-dotenv
 langsmith
 certifi
 streamlit>=1.0.0
+psutil
 
 # Web scraping
 beautifulsoup4

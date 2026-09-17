@@ -1,4 +1,6 @@
-from src.tools.tools import web_search, scrape_url
+from src.pipelines.pipeline import run_research_pipeline
 
-#print(web_search("Latest advancements in AI research"))
-print(scrape_url("https://ai.google/research"))
+
+topic = input("Enter the research topic: ")
+
+run_research_pipeline(topic)

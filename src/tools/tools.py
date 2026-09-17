@@ -29,7 +29,7 @@ def web_search(query: str) -> str:
     try:
         # Ask Tavily for up to 5 results. The response is a dict shaped like:
         # {"query": "...", "results": [{"title": ..., "url": ..., "content": ...}, ...]}
-        response = tavily_client.search(query=query, max_results=5)
+        response = tavily_client.search(query=query, max_results=1)
         output = []
 
         # Pull the actual list of results out of the dict (NOT iterate the dict itself,
