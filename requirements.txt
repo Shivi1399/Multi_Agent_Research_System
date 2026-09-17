@@ -17,3 +17,4 @@ streamlit>=1.0.0
 beautifulsoup4
 readability-lxml
 trafilatura
+rich
